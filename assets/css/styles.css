@@ -102,14 +102,19 @@ button {
 /* Header */
 .header {
   padding: 26px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 99;
 }
+
 .header__inner {
+  background: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.navbar__list {
-  display: flex;
 }
 
 .navbar__link,
@@ -144,7 +149,7 @@ button {
 
 /* Hero */
 .hero {
-  margin-top: 74px;
+  margin-top: 202px;
 }
 
 .hero__inner {
